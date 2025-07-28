@@ -1,0 +1,14 @@
+{
+  "name": "njm-template",
+  "version": "1.0.0",
+  "description": "Njm is an open-source single page landing page template",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }  
+}
+
