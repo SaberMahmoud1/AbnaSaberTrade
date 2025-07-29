@@ -1,14 +1,24 @@
 {
-  "name": "njm-template",
+  "name": "saber-trade",
   "version": "1.0.0",
-  "description": "Njm is an open-source single page landing page template",
+  "description": "شركة صابر للأعلاف ومستلزمات الأعلاف - منتجات صناعية وزراعية عالية الجودة تشمل المولاس والفيناس والخل المركز.",
   "main": "index.js",
-  "scripts": {},
-  "keywords": [],
-  "author": "",
-  "license": "",
+  "scripts": {
+    "build": "tailwindcss -i ./input.css -o ./output.css --minify",
+    "watch": "tailwindcss -i ./input.css -o ./output.css --watch"
+  },
+  "keywords": [
+    "شركة صابر",
+    "أعلاف",
+    "المولاس",
+    "الخل المركز",
+    "CMS",
+    "نقل",
+    "صناعة الزراعة"
+  ],
+  "author": "شركة صابر للأعلاف",
+  "license": "MIT",
   "devDependencies": {
     "tailwindcss": "^3.4.1"
-  }  
+  }
 }
-
