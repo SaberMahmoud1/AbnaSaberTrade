@@ -2,19 +2,22 @@
   "name": "saber-trade",
   "version": "1.0.0",
   "description": "شركة صابر للأعلاف ومستلزمات الأعلاف - منتجات صناعية وزراعية عالية الجودة تشمل المولاس والفيناس والخل المركز.",
-  "main": "index.js",
   "scripts": {
     "build": "tailwindcss -i ./input.css -o ./output.css --minify",
     "watch": "tailwindcss -i ./input.css -o ./output.css --watch"
   },
   "keywords": [
+    "شركة صابر للاعلاف",
+    "فيناس",
+    "خل مركز",
     "شركة صابر",
     "أعلاف",
     "المولاس",
-    "الخل المركز",
+    "عسل 45",
+    "عسل 63",
     "CMS",
     "نقل",
-    "صناعة الزراعة"
+    "مستلزمات زراعة"
   ],
   "author": "شركة صابر للأعلاف",
   "license": "MIT",
